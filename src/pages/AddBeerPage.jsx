@@ -35,7 +35,7 @@ function AddBeerPage() {
     return(
         <div>
             <h2> Add Beer </h2>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={ handleSubmit }>
             <label htmlFor="name">Name</label>
             <input type="text" id="name" name="name" onChange={handleChange} />
 

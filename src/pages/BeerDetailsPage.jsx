@@ -29,6 +29,7 @@ function BeerDetailsPage() {
           <p><strong>Attenuation Level:</strong> {beer.attenuation_level}</p>
           <p>{beer.description}</p>
           <p><strong>Contributed by:</strong> {beer.contributed_by}</p>
+          
         </div>
       )}
     </div>

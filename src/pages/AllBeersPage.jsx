@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllBeers } from "../services/Beers";
+import { getAllBeers } from "../services/Beers"
 import { Link } from "react-router-dom";
 import { ScaleLoader } from "react-spinners"
 
